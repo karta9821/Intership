@@ -28,6 +28,7 @@ def get_values():
         max_value = random.randint(75, 200)
     return min_value, max_value
 
+
 def input_number(message):
     """
         Returns user input if its valid.
@@ -39,6 +40,7 @@ def input_number(message):
         except ValueError:
             print('Input must be a number!')
             continue
+
 
 def is_number_in_range(min_value, max_value, message):
     """

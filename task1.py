@@ -42,3 +42,4 @@ with open('results_01.txt', 'w') as f:
         f.write(f'[data.obj_list: {product} - Object: {obj} - summary_list: {summary}]\n')
 
 
+
